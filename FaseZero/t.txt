@@ -1,0 +1,19 @@
+249,90R$ - Geladeira - OK
+10,32R$ - Pix - OK
+43,70R$ - Toto Auto Pecas - OK
+30,00R$ - Mauricelia - OK
+94,84R$ - Lojao Pessoa - OK
+17,56R$ - Meia
+69,52R$ - Bota36
+39,93R$ - Gabriel
+555,77R$ Total
+Resta: 69,17R$
+
+249,90+
+10,32+
+43,70+
+30,00+
+94,84+
+17,56+
+69,52+
+39,93

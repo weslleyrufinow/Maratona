@@ -1,0 +1,33 @@
+int main(){
+std::ios::sync_with_stdio(0);
+}
+
+Argumentos de compilação:
+g++ -g -O2 -std=gnu11 -static -lm name.cpp -o name
+
+Apontador de entradas:
+Linux: a.out < inputs.txt
+Windows: Get-Content inputs.txt | .\a.exe
+
+Calcular Tempo:
+
+#include <time.h>
+void tempo(double &time, clock_t &start, clock_t &end){
+	time = (double)(end - start) / (double)(CLOCKS_PER_SEC);
+    cout << "\nTempo total= "<< time << "\n" << setprecision(10);
+}
+double time; clock_t start, end;
+start = clock();
+end = clock(); 
+tempo(time,start,end);
+
+Anexar saídas a um arquivo:
+#include <fstream>
+void arquivo(char &OK){
+    //remove("GBAll.txt"); apaga arquivos no diretório atual
+    ofstream arq;
+    arq.open("GBAll.txt",ios::app);
+    arq << OK <<"\n";
+    arq.close();    
+}
+arquivo(OK);
